@@ -259,7 +259,8 @@ Navbar; the START of the actual code, (what was written above are predifined fun
 ===============
 */
 body {
-	background-image: url(/njouraImgs/iconsbg.png);
+	/* the structure of the path is so IMPORTANT */
+	background-image: url("../njouraImgs/iconsbg.png");
 }
 
 .navbar {
@@ -395,8 +396,8 @@ hero
 ===============
 */
 .hero {
-	height: 40vh;
-	background: url(/njouraImgs/foodBackGroud.jpg) center/cover no-repeat;
+	height: 50vh;
+	background: url("../njouraImgs/foodBackGroud.jpg") center/cover no-repeat;
 	margin-bottom: 2rem;
 	border-radius: var(--borderRadius);
 	position: relative;
@@ -407,7 +408,7 @@ hero
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.65);
 	border-radius: 0.4rem;
 	display: flex;
 	align-items: center; /* align vertically */
